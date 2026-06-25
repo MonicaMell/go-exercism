@@ -1,0 +1,4 @@
+# Don't count Exercism's markdown/docs in the language stats
+*.md linguist-documentation
+# Force-count Go files even if they sit in subfolders Linguist might skip
+*.go linguist-detectable=true linguist-language=Go
